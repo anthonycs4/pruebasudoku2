@@ -1,0 +1,32 @@
+.container-header1 {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Fredoka One;
+    margin-bottom: 5px;
+}
+
+.logo {
+    width: 175px; /* Ancho deseado para el div */
+    height: 50px; /* Alto deseado para el div */
+    padding: 10px; /* Espacio interior de 10px */
+    text-align: center; /* Centra el contenido del div */
+}
+
+.logo img {
+    max-width: 100%; /* La imagen se ajusta al ancho del div */
+    max-height: 150%; /* La imagen se ajusta al alto del div */
+    display: block; /* Elimina cualquier espacio residual debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+.que__es__content1 {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 680px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+

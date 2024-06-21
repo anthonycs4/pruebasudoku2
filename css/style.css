@@ -1,0 +1,527 @@
+
+@font-face {
+    font-family: Fredoka One;
+    src: url(../fonts/FredokaOne-Regular.ttf);
+}
+@font-face {
+    font-family: Fredoka-Bold;
+    src: url(../fonts/Fredoka-Bold.ttf);
+}
+
+@font-face {
+    font-family: Fredoka-SemiBold;
+    src: url(../fonts/Fredoka-SemiBold.ttf);
+}
+
+
+@font-face {
+    font-family: Nunito;
+    src: url(../fonts/Nunito-Regular.ttf);
+}
+
+@font-face {
+    font-family: Nunito-medium;
+    src: url(../fonts/Nunito-Medium.ttf);
+}
+
+@font-face {
+    font-family: Nunito-bold;
+    src: url(../fonts/Nunito-Bold.ttf);
+}
+@font-face {
+    font-family: Nunito-SemiBold;
+    src: url(../fonts/Nunito-SemiBold.ttf);
+}
+.table__game .table {
+    position: relative;
+    width: 550px;
+    height: 585px;
+    /*  background-image: url(/images/tablero-juego.png); */
+    background-size: cover;
+    display: grid;
+    place-content: center;
+}
+
+.table__game .table::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(172.27deg, rgba(255, 255, 255, 0.35) 2.75%, rgba(255, 255, 255, 0.15) 86.02%);
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 15px 0px 0px 15px;
+}
+
+.game__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.game {
+    margin-top: 30px;
+}
+
+.play__btn {
+    position: relative;
+    z-index: 2;
+    width: 300px;
+    background: #8338EC;
+    border: 5px solid #964BFE;
+    border-radius: 25px;
+    padding: 10px 0;
+    font-size: 30px;
+    font-family: Nunito-bold;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.buttons.disabled {
+    display: none;
+}
+
+
+/* Bounce In */
+.hvr-bounce-in {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.hvr-bounce-in:hover,
+.hvr-bounce-in:focus,
+.hvr-bounce-in:active {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+/* QUE ES NETDREAMS SUDOKU */
+
+.que__es__content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 680px auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.caption__descripcion p {
+    font-size: 2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 20px;
+    text-align: justify;
+     font-size: 2rem;
+    font-family: Nunito-SemiBold;
+}
+
+.titulo {
+    width: fit-content;
+    text-align: center;
+    margin: 25px auto;
+    font-size: 3.6rem;
+    color: #FFF;
+    font-family: Fredoka One;
+    text-transform: uppercase;
+    border-radius: 22px;
+    padding: 20px 30px;
+}
+
+.titulo--morado {
+    background-color: var(--morado);
+    border: 5px solid #964BFE;
+}
+
+.titulo--celeste {
+    background-color: var(--celeste);
+    border: 5px solid #5C9BFF;
+}
+
+
+.descarga__el__juego {
+    margin-top: 35px;
+}
+
+.descarga__el__juego__parrafo {
+    width: 65%;
+    font-family: Fredoka One;
+    font-size: 2.4rem;
+    color: var(--morado);
+
+}
+
+
+.descarga__el__juego .tiendas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.descarga__el__juego .tiendas img {
+    width: 190px;
+}
+
+.tiendas a:hover {
+    transform: scale(1.05);
+    transition: 300ms ease all;
+}
+
+.que__es__image img {
+    width: 750px;
+    display: block;
+    margin: auto;
+}
+
+.widget{
+    display: flex;
+    justify-content: center;
+    /* padding: 32px 0 16px ; */
+    background-color: #292f3b;
+    /* background-image: url(/images/fondo_banner_steam.png); */
+
+    & iframe{
+        width: 60%;
+        height: 195px;
+        background-image: url(../images/fondo_banner_steam.png);
+
+    }
+}
+
+
+
+/* COMO SE JUEGA EL JUEGO */
+
+.como__se__juega {
+    width: 100%;
+    max-width: 100%;
+    background-image: url(../images/como-se-juega-sudoku-bg-desktop.png);
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.como__se__juega.english {
+    background-image: url(../images/Como_jugar1.png);
+    background-size: cover;
+    background-position: center;
+    padding: 445px 0; /* Ajusta el padding según sea necesario para el contenido */
+    position: relative; /* Asegura un contexto de posicionamiento para elementos hijos absolutos */
+
+}
+
+.como__se__juega.aleman{
+    background-image: url(../images/como-se-juega-sudoku-bg-aleman.png);
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+}
+
+.como__se__juega.chino{
+    background-image: url(../images/como-se-juega-sudoku-bg-chino.png);
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+}
+
+.como__se__juega.coreano{
+    background-image: url(../images/como-se-juega-sudoku-bg-coreano.png);
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+}
+
+.como__se__juega.frances{
+    background-image: url(../images/como-se-juega-sudoku-bg-frances.png);
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+}
+
+.como__se__juega.portugues{
+    background-image: url(../images/como-se-juega-sudoku-bg-portugues.png);
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+}
+
+.como__se__juega__container {
+    max-width: 1240px;
+    margin: auto;
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    position: relative; /* Asegura un contexto de posicionamiento para elementos hijos absolutos */
+
+}
+
+.como__se__juega__caption {
+    position: absolute;
+    top: 75px;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+}
+.como__se__juega__caption img{
+    width: 470px;
+    height: 110px;
+    margin-left: 235px;
+}
+.como__se__juega__caption .titulo {
+    text-align: end;
+    margin: 0;
+    margin: 0 0 25px auto;
+}
+
+
+
+
+.como__se__juega__paragraph {
+    font-size: 2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.Titulo_Final {
+    margin-top: 35px;
+}
+
+.Titulo_Final img{
+max-width: 100%;
+}
+.bg_final {
+    background-image: url(../images/bg_final.png);
+    background-size: cover;
+    background-position: center;
+    padding: 300px 0; /* Ajusta el padding según sea necesario para el contenido */
+    position: relative; /* Asegura un contexto de posicionamiento para elementos hijos absolutos */
+
+}
+.como__se__juega__hidden img {
+    display: none;
+}
+
+
+/* Banner  premios */
+
+.banner__premios{
+    background: url(../images/bg-premios.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 20px 0;
+}
+
+.content__premios{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.caption__title{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    width: 350px;
+}
+
+.caption__title.aleman{
+    width: 450px;
+}
+
+.caption__title .title{
+    font-size: 3.2rem;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #FFF;
+    text-transform: uppercase;
+    font-family: Fredoka One;
+    color: white;
+}
+
+.img__premio{
+    display: flex;
+    gap: 25px;
+}
+
+.img__premio img{
+    width: 95%;
+    display: block;
+    margin: 10px auto;
+    max-width: 280px;
+}
+
+/* DESCARGAR */
+
+.content__caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+
+.caption-celular h2 {
+    margin-bottom: 40px;
+}
+
+.caption-text p {
+    width: 75%;
+    margin: 15px auto 35px;
+    font-size: 1.8rem;
+    font-family: Nunito-medium;
+    text-align: center;
+}
+
+.img__descarga img {
+    width: 90%;
+    max-width: 875px;
+    display: block;
+    margin: auto;
+}
+
+
+
+.download {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 35px;
+}
+
+.download a:hover {
+    transform: scale(1.05);
+    transition: 300ms ease all;
+}
+
+.download img {
+    width: 200px;
+}
+
+
+/* VIDEO */
+
+
+.video__paragraph {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Nunito-medium;
+}
+
+.video a,
+.video img {
+    width: 90%;
+    max-width: 750px;
+    display: block;
+    margin: 35px auto 0;
+}
+
+.video img {
+    width: 100%;
+}
+
+/* COMMENTS */
+
+.comments {
+    max-width: 100%;
+    margin: 200px 0;
+}
+
+.comments .titulo {
+    font-size: 3.5rem;
+    padding: 1rem;
+    text-align: start;
+    height: auto;
+    margin: 0;
+    margin-bottom: auto;
+}
+
+.comments__section__comment {
+    max-width: 1366px;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 50px;
+    justify-content: space-between;
+
+}
+
+.comments__container {
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: flex-start;
+    gap: 20px;
+}
+
+
+.comment {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 15px;
+    background: #FFFFFF;
+    border: 1.5px solid #8338EC;
+    border-radius: 20px;
+}
+
+.comment__image {
+    position: absolute;
+    left: calc(50% - 55px);
+    top: -50px;
+}
+
+.comment__content {
+    margin-top: 50px;
+}
+
+.comment .stars {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 10px;
+}
+
+.comment .stars i {
+    color: #FF006D;
+    font-size: 20px;
+}
+
+.profile__name {
+    display: block;
+    font-size: 1.8rem;
+    font-family: Nunito-bold;
+    text-align: center;
+}
+
+.provenance__store {
+    display: block;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.user__comment {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 1.6rem;
+}

@@ -1,0 +1,32 @@
+.fondo-heather {
+    background: url(../images/fondo-heather.png);
+    /* background-position: center center; */
+    background-size: 100%;
+    font-family: Nunito;
+    width: 100%;
+    margin-top: -52px;
+}
+.fondo-video{
+    background: url(../images/fondo-video.png);
+    /* background-position: center center; */
+    background-size: 100%;
+    font-family: Nunito;
+    width: 100%;
+    margin-top: -52px;
+}
+.fondo-como-se-juega{
+    background: url(../images/fondo-como-se-juega.png);
+    /* background-position: center center; */
+    background-size: 100%;
+    font-family: Nunito;
+    width: 100%;
+    margin-top: -52px;
+}
+.fondo-dispositivo-favorito{
+    background: url(../images/fondo-dispositivo-favorito.png);
+    /* background-position: center center; */
+    background-size: 110%;
+    font-family: Nunito;
+    width: 100%;
+    margin-top: -52px;
+}

@@ -1,0 +1,45 @@
+.history {
+    padding: 0 2em;
+}
+.history img{
+    width: 90%;
+    max-width: 400px;
+    display: block;
+    margin: 40px auto;
+}
+
+h1 {
+    font-size: 3.1em;
+    font-family: Fredoka One;
+    text-align: center;
+    background: var(--gris);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.7px #2D7AF5;
+}
+
+.content-history{
+    background: linear-gradient(172.27deg, rgba(255, 255, 255, 0.75) 15.44%, rgba(255, 255, 255, 0.45) 86.02%);
+    /* box-shadow: -1px 0px 4px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0px 4px 5px #f4f4f4, inset 0px 4px 5px #e9e9e9;
+    backdrop-filter: blur(25px);
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.history p{
+    margin-bottom: 30px;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 1366px) {
+    .history {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 2.5em;
+    }
+}

@@ -1,0 +1,623 @@
+@media screen and (min-width: 1650px) {
+    .container-wrapper {
+        justify-content: center;
+        padding-left: 8em;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+
+    .start-game {
+        width: 650px;
+    }
+
+    .container-header {
+        padding: 0 1em;
+    }
+
+    .container-wrapper {
+        min-width: 1024px;
+    }
+
+    .bodypage {
+        min-width: 720px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+
+    section {
+        padding-left: 3.2rem;
+        padding-right: 3.2rem;
+    }
+
+    .que__es__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+    }
+
+    .content-footer {
+        background: url(../images/fondo-footer.png);
+        background-size: cover;
+        background-position: right;
+        padding: 50px 30px;
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        box-shadow: 0px -4px 10px 0px #00000026;
+    }
+
+    .como__se__juega__container {
+        grid-template-columns: 1fr 600px;
+        padding-bottom: 200px;
+    }
+
+    .como__se__juega__caption {
+        margin-top: 110px;
+        padding-top: 50px;
+    }
+
+}
+
+
+@media screen and (max-width: 1050px) {
+
+    .como__se__juega {
+        background-image: url(../images/como-se-juega-sudoku-mobile.png);
+        background-position: center
+    }
+
+    .como__se__juega.english {
+        background-image: url(../images/como-se-juega-sudoku-mobile-eng.png);
+        background-position: center
+    }
+
+
+    .como__se__juega__hidden {
+        display: block;
+        height: 800px;
+    }
+
+    .como__se__juega__container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 250px;
+    }
+
+    .como__se__juega__caption {
+        margin-top: 0;
+    }
+
+    .como__se__juega__caption .titulo {
+        text-align: center;
+        margin: 0 auto 25px;
+    }
+
+    .como__se__juega__paragraph {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    /*     .como__se__juega__hidden img{
+        display: block;
+        max-width: 450px;
+        width: 90%;
+        margin: 0 auto;
+    } */
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .container-wrapper {
+        padding: 0;
+        min-width: auto;
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .bodypage {
+        margin: auto;
+        /* padding: 30px; */
+        border-radius: 15px;
+    }
+
+
+    .ad_vertical {
+        display: none;
+    }
+
+    .game__container {
+        justify-content: center;
+    }
+
+    .game .caption,
+    .content__caption {
+        max-width: 95%;
+        margin: auto;
+    }
+
+    .start-game {
+        width: 100%;
+        max-width: 95%;
+        margin: 50px auto;
+    }
+
+    .content-footer {
+        background-position: center center;
+        justify-content: space-evenly;
+    }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .que__es__content {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .que__es__image img {max-width: 385px;
+        width: 80%;
+        
+    }
+
+    .descarga__el__juego__parrafo {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .caption__descripcion p {
+        text-align: center;
+    }
+
+    .descarga__el__juego .tiendas {
+        justify-content: center;
+    }
+
+
+    .logo-hero img {
+        display: block;
+        margin: 0 auto 40px;
+        width: 80%;
+    }
+    .img__premio img{
+        max-width: 230px;
+    }
+
+    .widget iframe{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .caption__title .title{
+        font-size: 2.8rem;
+    }
+
+    .caption__title{
+        width: 280px;
+    }
+
+    .banner__premios{
+        padding: 20px 16px;
+    }
+
+    .content__caption {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .img__premio{
+        gap: 10px;
+    }
+
+    .img__descarga {
+        display: flex;
+    }
+
+    .img__descarga img {
+        width: 85%;
+        max-width: 350px;
+        margin: auto;
+    }
+
+    .caption-celular h2 {
+        text-align: center;
+    }
+
+    .juega-celular .caption-celular p {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .content__text-store {
+        width: 90%;
+        margin: auto;
+    }
+
+    .content__text-store .download {
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .content__premios{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .game {
+        display: none;
+    }
+
+    .close-bar,
+    .menu_bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    .navigation {
+        right: 0;
+        top: 0;
+        width: 0;
+        position: absolute;
+        padding: 0;
+        background: linear-gradient(192.72deg, #8338EC 10.28%, #5104BC 82.11%);
+        display: flex;
+        align-items: center;
+        min-height: 100%;
+        overflow: hidden;
+        z-index: 100;
+        transition: 300ms ease all;
+    }
+
+    .navigation.open {
+        position: absolute;
+        width: 300px;
+        padding: 20px 30px;
+        right: 0;
+        top: 0;
+        z-index: 100;
+        min-height: 100%;
+        background: linear-gradient(192.72deg, #8338EC 10.28%, #5104BC 82.11%);
+        display: flex;
+        align-items: center;
+        transition: 300ms ease all;
+    }
+
+    .close-bar {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .logo img {
+        width: 150px;
+    }
+
+    .navigation ul li {
+        width: 100%;
+    }
+
+    .navigation ul li a {
+        font-size: 2.2rem;
+    }
+
+    .bodypage {
+        min-width: auto;
+    }
+
+    .content__text-store .download {
+        gap: 15px;
+    }
+
+    /* GAME */
+    .game .caption {
+        flex-direction: column;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .select-dificult {
+        display: grid;
+        grid-template-columns: repeat(2, 130px);
+        row-gap: 60px
+    }
+
+
+    .juega-celular .caption-celular {
+        flex-direction: column;
+    }
+
+    .juega-celular .caption-celular p {
+        width: auto;
+        text-align: center;
+    }
+
+    .juega-celular .caption-celular .img__descarga img {
+        margin-top: 50px;
+    }
+
+    .download {
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+
+    .como__se__juega__container {
+        padding-bottom: 0;
+    }
+
+    /* Premios */
+
+    .banner__premios{
+        background-position: left center;
+    }
+
+    .content__premios{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .table__game .table {
+        position: relative;
+        width: 375px;
+        height: 400px;
+    }
+
+    .play__btn {
+        position: relative;
+        z-index: 2;
+        width: 250px;
+        font-size: 25px;
+    }
+
+    .titulo {
+        font-size: 2.2rem;
+    }
+
+    section {
+        padding: 1.6rem;
+        margin: 50px 0;
+    }
+
+    .caption__descripcion p {
+        font-size: 1.6rem;
+    }
+
+    .descarga__el__juego__parrafo {
+        width: 100%;
+    }
+
+    .descarga__el__juego .tiendas {
+        margin-top: 45px;
+    }
+
+    .que__es__netdreams__sudoku {
+        margin: 5px auto;
+    }
+
+    .como__se__juega {
+        background-image: url(../images/como-se-juega-sudoku-mobile.webp);
+        background-position: center bottom;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .como__se__juega__caption {
+        padding: 0;
+    }
+
+    .como__se__juega__container {
+        gap: 150px;
+    }
+
+    .como__se__juega__hidden {
+        height: 70vh;
+    }
+
+    .video__paragraph {
+        font-size: 1.8rem;
+    }
+
+    .caption-text p {
+        width: 100%;
+    }
+
+    .widget iframe{
+        height: 250px;
+    }
+
+}
+
+
+@media screen and (max-width: 550px) {
+    .comment {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .content-footer {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .logo-netdreams {
+        margin: auto;
+    }
+
+    .language p {
+        display: none;
+    }
+
+    .language{
+        width: 70px;
+    }
+
+    .language .current {
+        border-radius: 15px;
+        border: 2px solid #FFF;
+        width: 70px;
+        padding: 10px 5px;
+        gap: 10px;
+    }
+
+    .options {
+        width: 70px;
+        top: 52px;
+        border-radius: 15px;
+    }
+    .options.open {
+        width: 70px;
+        top: 52px;
+        border-radius: 15px;
+    }
+    .img__premio{
+        margin-top: 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .img__premio img{
+        max-width: 300px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    header {
+        padding: 1rem;
+    }
+
+    .container-header {
+        padding: 0;
+    }
+
+    .start-game h3 {
+        font-size: 1.2em;
+    }
+
+    .start-game {
+        padding: 20px 10px;
+    }
+
+    .juega-celular .caption-celular .img__descarga img {
+        display: block;
+        width: 95%;
+        margin: 50px auto 0;
+    }
+
+    .select-dificult {
+        grid-template-columns: repeat(2, 100px);
+        margin: 70px 0 20px;
+    }
+
+    .dificultad {
+        padding: 10px 10px 5px 10px;
+    }
+
+    .navigation.open {
+        width: 250px;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    .content-language-menu {
+        gap: 20px;
+    }
+
+    .comments h2,
+    .game .caption h1,
+    .video h2,
+    .juega-celular h2 {
+        font-size: 2.3em;
+    }
+
+    .dificultad {
+        font-size: 1.2em;
+    }
+
+    .img-dificult {
+        top: -48px;
+    }
+
+    .bodypage {
+        padding: 0;
+    }
+
+    .como__se__juega.english,
+    .como__se__juega {
+        background-size: contain;
+        /*      background-position: bottom;
+ */
+        background-position: center 80%;
+    }
+
+    .como__se__juega__container {
+        gap: 115px;
+    }
+
+    .como__se__juega__hidden {
+        height: 45vh;
+    }
+
+    .content-footer {
+        padding: 3.2em 1em;
+    }
+
+    .caption__title .title{
+        font-size: 2.2rem;
+    }
+
+    .banner__premios {
+        background-position: right center;
+    }
+
+    .caption__title{
+        width: 280px;
+    }
+    .caption__title.aleman{
+        width: 300px;
+    }
+    .caption__title img{
+        width: 50px;
+    }
+
+}

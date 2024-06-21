@@ -1,0 +1,66 @@
+
+@font-face {
+  font-family: Nunito-medium;
+  src: url(../fonts/Nunito-Medium.ttf);
+}
+
+main{
+    background: url(../images/netdreams-sudoku-logo.svg);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 50px 0;
+    font-family: Nunito-medium;
+}
+
+.push{
+    display: grid;
+    place-items: center;
+}
+
+th{
+  font-size: 24px;
+}
+
+.sub_th{
+  background-color: #8338EC;
+  color: #FFF;
+}
+
+td{
+    padding: 20px;
+}
+
+td img{
+    width: 400px;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+table {
+    border: black 2px solid;
+    padding: 5px;
+    background: linear-gradient(172.27deg, rgba(255, 255, 255, 0.35) 2.75%, rgba(255, 255, 255, 0.15) 86.02%);
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    font-family: Nunito-medium;
+  }
+  td, th {
+    border: black 2px solid;
+  }
+
+  td a{
+    color: #8338EC;
+    font-weight: bold;
+  }
+
+  td a:hover{
+    color: #ffffff;
+    background: #8338EC;
+    font-weight: bold;
+  }
+
+
+  
