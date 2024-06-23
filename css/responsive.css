@@ -1416,11 +1416,11 @@
     }
 }
 @media (max-width: 375px) {
-    .descarga__el__juego_final {
-        margin-top: 2500px;
-        margin-bottom: -235px;
+.descarga__el__juego_final {
+        margin-top: 250px;
+        margin-bottom: -205px;
     }
     footer {
-        margin-top: 780px;
+        margin-top: 730px;
     }
 }
