@@ -447,7 +447,7 @@
 
     section {
         padding: 1.6rem;
-        margin: 50px -6px;
+        margin: 50px -3px;
     }
 
     .caption__descripcion p {
@@ -466,7 +466,7 @@
         height: 500px;
     }
     footer{
-        margin-top: 300px;
+        margin-top: 320px;
     }
     .descarga__el__juego__parrafo {
         width: 100%;
@@ -651,7 +651,7 @@
     .como__se__juega__container {
         gap: 115px;
         width: 95%;
-        margin-left: -80px;
+        margin-left: -76px;
     }
 
     .como__se__juega__hidden {
