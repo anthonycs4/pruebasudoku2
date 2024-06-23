@@ -466,7 +466,7 @@
         height: 500px;
     }
     footer{
-        margin-tops: 300px;
+        margin-top: 300px;
     }
     .descarga__el__juego__parrafo {
         width: 100%;
@@ -501,6 +501,13 @@
 
     .video__paragraph {
         font-size: 1.8rem;
+        background-color: #f0f0f0; /* Color de fondo sutil */
+        border-radius: 10px; /* Bordes redondeados */
+        padding: 10px 15px; /* Espaciado interno (padding) */
+        border: 1px solid #ddd; /* Borde sutil */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+        transition: background-color 0.3s, border-color 0.3s; /* Transición suave */
+      
     }
 
     .caption-text p {
@@ -643,8 +650,8 @@
 
     .como__se__juega__container {
         gap: 115px;
-        width: 100%;
-        margin-left: -85px;
+        width: 95%;
+        margin-left: -80px;
     }
 
     .como__se__juega__hidden {
