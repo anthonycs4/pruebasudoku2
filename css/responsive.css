@@ -88,7 +88,16 @@
     }
 
     .como__se__juega__caption {
-        margin-top: 0;
+        margin-top: -130px;
+    }
+    .title-how-to-play{
+        text-align: center;
+    }
+    .Titulo_Final{
+        width: 346px;
+        margin-left: 20px;    }
+    .fondo-dispositivo-favorito{
+        padding: 5px;
     }
 
     .como__se__juega__caption .titulo {
@@ -99,6 +108,14 @@
     .como__se__juega__paragraph {
         text-align: center;
         font-size: 1.8rem;
+
+        background-color: #f0f0f0; /* Color de fondo sutil */
+        border-radius: 10px; /* Bordes redondeados */
+        padding: 10px 15px; /* Espaciado interno (padding) */
+        border: 1px solid #ddd; /* Borde sutil */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+        transition: background-color 0.3s, border-color 0.3s; /* Transición suave */
+      
     }
 
     /*     .como__se__juega__hidden img{
@@ -167,11 +184,23 @@
         display: flex;
         flex-direction: column-reverse;
         gap: 20px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .Centrado_Final{
+        margin-top: -265px;
     }
 
     .que__es__image img {max-width: 385px;
         width: 80%;
         
+    }
+    .imageCentrado{
+        margin-left: 0px;
+    }
+    .imageCentrado img{
+        width: 240px;
+        margin-left: 55px;
     }
 
     .descarga__el__juego__parrafo {
@@ -181,6 +210,13 @@
 
     .caption__descripcion p {
         text-align: center;
+        background-color: #ffffff; /* Color de fondo sutil */
+        border-radius: 10px; /* Bordes redondeados */
+        padding: 10px 15px; /* Espaciado interno (padding) */
+        border: 1px solid #f0f0f0; /* Borde sutil */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+        transition: background-color 0.3s, border-color 0.3s; /* Transición suave */
+      
     }
 
     .descarga__el__juego .tiendas {
@@ -416,8 +452,22 @@
 
     .caption__descripcion p {
         font-size: 1.6rem;
-    }
 
+        background-color: #f0f0f0; /* Color de fondo sutil */
+        border-radius: 10px; /* Bordes redondeados */
+        padding: 10px 15px; /* Espaciado interno (padding) */
+        border: 1px solid #ddd; /* Borde sutil */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+        transition: background-color 0.3s, border-color 0.3s; /* Transición suave */
+      
+    }
+    .bg_final{
+        margin-top: 5px;
+        height: 500px;
+    }
+    footer{
+        margin-tops: 300px;
+    }
     .descarga__el__juego__parrafo {
         width: 100%;
     }
@@ -526,6 +576,7 @@
 
     .container-header {
         padding: 0;
+        margin-bottom: 50px;
     }
 
     .start-game h3 {
@@ -592,6 +643,8 @@
 
     .como__se__juega__container {
         gap: 115px;
+        width: 100%;
+        margin-left: -85px;
     }
 
     .como__se__juega__hidden {
