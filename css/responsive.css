@@ -64,6 +64,12 @@
 
 @media screen and (max-width: 1050px) {
 
+    
+    .como__se__juega__caption{
+        margin-top: -340px;
+        margin-left: -130px;
+        width: 100%;
+        }
     .como__se__juega {
         background-image: url(../images/como-se-juega-sudoku-mobile.png);
         background-position: center
@@ -88,7 +94,7 @@
     }
 
     .como__se__juega__caption {
-        margin-top: -130px;
+        margin-top: -135px;
     }
     .title-how-to-play{
         text-align: center;
@@ -181,6 +187,11 @@
 
 @media screen and (max-width: 1000px) {
 
+    .como__se__juega__caption{
+        margin-top: -340px;
+        margin-left: -180px;
+        width: 100%;
+        }
     .que__es__content {
         display: flex;
         flex-direction: column-reverse;
@@ -197,8 +208,11 @@
         
     }
     .imageCentrado{
-        margin-left: 0px;
-    }
+
+        display: flex;
+        justify-content: center;
+        margin-right: 120px;
+        }
     .imageCentrado img{
         width: 240px;
         margin-left: 55px;
@@ -407,6 +421,11 @@
         flex-wrap: wrap;
     }
 
+    .como__se__juega__caption{
+        margin-top: -340px;
+        margin-left: -130px;
+        width: 100%;
+        }
     .como__se__juega__container {
         padding-bottom: 0;
     }
@@ -433,7 +452,10 @@
         position: relative;
         width: 375px;
         height: 400px;
+    }.container-header {
+        margin-bottom: 45px;
     }
+    
 
     .play__btn {
         position: relative;
@@ -519,6 +541,11 @@
         height: 250px;
     }
 
+    .como__se__juega__caption{
+        margin-top: -340px;
+        margin-left: -130px;
+        width: 100%;
+        }
 }
 
 
@@ -527,6 +554,15 @@
         flex-direction: column;
         text-align: center;
     }
+    .container-header {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .como__se__juega__caption{
+        margin-top: -340px;
+        margin-left: -115px;
+        width: 98%;
+        }
 }
 
 @media screen and (max-width: 530px) {
@@ -534,7 +570,10 @@
         flex-direction: column;
         gap: 30px;
     }
-
+    .container-header {
+        padding: 0;
+        margin-bottom: 50px;
+    }
     .logo-netdreams {
         margin: auto;
     }
