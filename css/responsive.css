@@ -1415,3 +1415,12 @@
         margin-top: 730px;
     }
 }
+@media (max-width: 375px) {
+    .descarga__el__juego_final {
+        margin-top: 2500px;
+        margin-bottom: -235px;
+    }
+    footer {
+        margin-top: 780px;
+    }
+}
