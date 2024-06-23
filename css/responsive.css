@@ -94,9 +94,10 @@
         text-align: center;
     }
     .Titulo_Final{
-        width: 315px;
-        margin-left: 10px;    }
-    .fondo-dispositivo-favorito{
+        width: 100%;
+
+    }
+   .fondo-dispositivo-favorito{
         padding: 5px;
     }
 
