@@ -95,7 +95,7 @@
     }
     .Titulo_Final{
         width: 346px;
-        margin-left: 20px;    }
+        margin-left: 13px;    }
     .fondo-dispositivo-favorito{
         padding: 5px;
     }
@@ -447,7 +447,7 @@
 
     section {
         padding: 1.6rem;
-        margin: 50px 0;
+        margin: 50px -6px;
     }
 
     .caption__descripcion p {
