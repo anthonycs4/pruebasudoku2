@@ -176,11 +176,127 @@
         justify-content: space-evenly;
     }
 
+    .HowToPlay{
+        display: flex;
+      justify-content: center;
+    }
 }
 
 
 @media screen and (max-width: 1000px) {
+    header{
+        height: 140px;
+    }
+    .logo{
+        margin-top: -10px;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .container-header{
+        height: 85px;
+        gap: 20px;
+    }
+    
+    .navigation ul li a{
+        font-size: 35px;
+    }
+    .que__es__image img {
+        max-width: 780px;
+        width: 100%;
+    }
+    .imageCentrado img {
+        width: 515px;
+    }
+    .imageCentrado{
+        margin-left: 230px;
+    }
+    .caption__descripcion p {
+        font-size: 4.3rem;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        padding: 10px 15px;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s, border-color 0.3s;
+    }
+    
+    .descarga__el__juego__parrafo{
+        font-size: 5.2rem;
+    }
+    
+    .descarga__el__juego .tiendas img{
+        width: 415px;
+    }
+    .img__premio img{
+        max-width: 455px;
+        width: 100%;
+    }
+    .caption__title .title{
+        font-size: 4rem;
+    }
+    .caption__title img{
+        width: 100px;
+        height: 100px;
+    }
+    .como__se__juega__paragraph{
+        font-size: 4.3rem;
+        width: 730px;
+        margin-left: -105px
+        }
+    .como__se__juega__hidden{
+            margin-top: 1165px;
+     } 
+     
+.video__paragraph{
+    font-size: 4.3rem;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, border-color 0.3s;
+    margin-top: 45px;
+}   
 
+.descarga__el__juego {        margin-top: 80px;
+    margin-bottom: -30px;
+}
+.language {
+    position: relative;
+    width: 260px;
+}
+.descarga__el__juego_final{
+    margin-top: 270px;
+        margin-bottom: -205px;
+}
+.language .current {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3rem;
+    font-family: Fredoka One;
+    gap: 7px;
+    border: 2px solid #FFF;
+    border-radius: 20px;
+    padding: 7px 18px;
+    cursor: pointer;
+}
+.current img{
+    width: 20%;
+}
+.icono-drop img {
+    width: 25px;
+}
+.como__se__juega__container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 250px;
+    margin-top: 170px;
+}
     .que__es__content {
         display: flex;
         flex-direction: column-reverse;
@@ -192,33 +308,14 @@
         margin-top: -265px;
     }
 
-    .que__es__image img {max-width: 385px;
-        width: 80%;
-        
-    }
-    .imageCentrado{
-        margin-left: 0px;
-    }
-    .imageCentrado img{
-        width: 240px;
-        margin-left: 55px;
-    }
+    
+    
 
     .descarga__el__juego__parrafo {
         text-align: center;
         margin: 0 auto;
     }
 
-    .caption__descripcion p {
-        text-align: center;
-        background-color: #ffffff; /* Color de fondo sutil */
-        border-radius: 10px; /* Bordes redondeados */
-        padding: 10px 15px; /* Espaciado interno (padding) */
-        border: 1px solid #f0f0f0; /* Borde sutil */
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-        transition: background-color 0.3s, border-color 0.3s; /* Transición suave */
-      
-    }
 
     .descarga__el__juego .tiendas {
         justify-content: center;
@@ -230,20 +327,127 @@
         margin: 0 auto 40px;
         width: 80%;
     }
-    .img__premio img{
-        max-width: 230px;
-    }
 
     .widget iframe{
         width: 90%;
     }
+    .caption__title{
+        width: 280px;
+    }
+
+    .banner__premios{
+        padding: 20px 16px;
+    }
+
+    .content__caption {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .img__premio{
+        gap: 45px;
+    }
+    .img__descarga {
+        display: flex;
+    }
+
+    .img__descarga img {
+        width: 85%;
+        max-width: 350px;
+        margin: auto;
+    }
+
+    .caption-celular h2 {
+        text-align: center;
+    }
+
+    .juega-celular .caption-celular p {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .content__text-store {
+        width: 90%;
+        margin: auto;
+    }
+
+    .content__text-store .download {
+        justify-content: center;
+    }
+    .content__premios{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .title-how-to-play{
+        width: 135%;
+        margin-left: -50px;
+    }
+    .title-how-to-play span{
+        font-size: 9rem;
+    }
+    .title-video span{
+        font-size: 9rem;
+    }
+    .title-dispositivo-favorito span{
+        font-size: 7rem;
+    }
+    .widget{
+        width: 100%;
+
+    }
+    .widget iframe{
+        width: 100%;
+    }
+    
+    
+    .tiendas a{
+        width: 45%;
+        padding: 10px;
+    }
+    .como__se__juega__caption{
+        margin-left: -220px;
+        margin-top: -185px;
+        width: 100%;
+    }
+    footer{
+        margin-top: -5px;
+    }
+
+.Centrado_Final{
+    width: 90%;
+        margin-left: 35px;
+        margin-top: -130px;
+}
+.caption_final{
+    margin-top: 80px;
+    height: 405px;
+}
+.redes{
+    width: 240px;
+}
+.content-redes img{
+    width: 70px;
+}
+
+.content-redes a{
+    font-size: 35px;
+}
+
+.redes h3{
+    font-size: 3.5rem;
+}
+     
+    
 }
 
 
 @media screen and (max-width: 900px) {
 
     .caption__title .title{
-        font-size: 2.8rem;
+        font-size: 3rem;
     }
 
     .caption__title{
@@ -260,7 +464,10 @@
     }
 
     .img__premio{
-        gap: 10px;
+        gap: 45px;
+    }
+    .img__premio img{
+        width: 365px;
     }
 
     .img__descarga {
@@ -291,6 +498,131 @@
     .content__text-store .download {
         justify-content: center;
     }
+    .content__premios{
+        flex-direction: column;
+        align-items: center;
+    }
+    header{
+        height: 120px;
+    }
+    .navigation ul li a{
+        font-size: 30px;
+    }
+    .container-header{
+        height: 85px;
+    }
+    .que__es__image img {
+        max-width: 490px;
+        width: 100%;
+    }
+    .logo{
+        margin-top: -10px;
+        margin-left: 0px;
+        padding: 2px;
+    }
+    .title-how-to-play{
+        width: 135%;
+        margin-left: -50px;
+    }
+    .title-how-to-play span{
+        font-size: 9rem;
+    }
+    .title-video span{
+        font-size: 9rem;
+    }
+    .title-dispositivo-favorito span{
+        font-size: 7rem;
+    }
+    .widget{
+        width: 100%;
+
+    }
+    .widget iframe{
+        width: 100%;
+    }
+    .caption__descripcion p {
+        font-size: 3.2rem;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        padding: 10px 15px;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s, border-color 0.3s;
+    }
+    
+    .descarga__el__juego__parrafo{
+        font-size: 4rem;
+    }
+    .tiendas a{
+        width: 45%;
+        padding: 10px;
+    }
+    .descarga__el__juego .tiendas img{
+        width: 335px;
+    }
+    .como__se__juega__caption{
+        margin-left: -220px;
+        margin-top: -185px;
+        width: 100%;
+    }
+    .caption__title img{
+        width: 100px;
+        height: 85px;
+    }
+    footer{
+        margin-top: -5px;
+    }
+    .como__se__juega__paragraph{
+        font-size: 3.2rem;
+        width: 730px;
+        margin-left: -105px
+        }
+    .como__se__juega__hidden{
+        margin-top: 145px;
+    }
+
+.video__paragraph{
+    font-size: 3.2rem;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, border-color 0.3s;
+    margin-top: 45px;
+}
+.Centrado_Final{
+    width: 90%;
+        margin-left: 35px;
+        margin-top: -250px;
+}
+.caption_final{
+    margin-top: 80px;
+    height: 405px;
+}
+.descarga__el__juego{
+    margin-top: 25px;
+    margin-bottom: -35px;
+}
+.redes{
+    width: 175px;
+}
+.content-redes img{
+    width: 55px;
+}
+
+.content-redes a{
+    font-size: 25px;
+}
+.redes h3{
+    font-size: 3.5rem;
+}
+        .imageCentrado{
+        margin-left: 150px;
+    }
+    .imageCentrado img {
+        width: 380px;
+    }
 }
 
 
@@ -299,13 +631,211 @@
         flex-direction: column;
         align-items: center;
     }
+    header{
+        height: 120px;
+    }
+    .navigation ul li a{
+        font-size: 25px;
+    }
+    .container-header{
+        height: 85px;
+    }
+    .que__es__image img {
+        max-width: 490px;
+        width: 100%;
+    }
+    .logo{
+        margin-top: -10px;
+        margin-left: 20px;
+        padding: 5px;
+    }
+    .widget{
+        width: 100%;
+
+    }
+    .widget iframe{
+        width: 150px;
+    }
+    .caption__descripcion p {
+        font-size: 3rem;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        padding: 10px 15px;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s, border-color 0.3s;
+    }
+    
+    .descarga__el__juego__parrafo{
+        font-size: 4rem;
+    }
+    .tiendas a{
+        width: 45%;
+        padding: 10px;
+    }
+    .descarga__el__juego .tiendas img{
+        width: 335px;
+    }
+    .como__se__juega__caption{
+        margin-left: -145px;
+        margin-top: -185px;
+        width: 100%;
+    }
+    .caption__title img{
+        width: 100px;
+        height: 85px;
+    }
+    footer{
+        margin-top: -5px;
+    }
+    .como__se__juega__paragraph{
+        font-size: 2.8rem;
+        width: 650px;
+        margin-left: -105px
+        }
+    .como__se__juega__hidden{
+        margin-top: 145px;
+    }
+
+.video__paragraph{
+    font-size: 3rem;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, border-color 0.3s;
+    margin-top: 45px;
+}
+.Centrado_Final{
+    width: 90%;
+        margin-left: 35px;
+        margin-top: -250px;
+}
+.caption_final{
+    margin-top: 80px;
+    height: 405px;
+}
+.descarga__el__juego{
+    margin-top: 25px;
+    margin-bottom: -35px;
+}
+.redes{
+    width: 175px;
+}
+.content-redes img{
+    width: 55px;
+}
+
+.content-redes a{
+    font-size: 25px;
+}
+.redes h3{
+    font-size: 3.5rem;
+}
+        .imageCentrado{
+        margin-left: 150px;
+    }
+    .imageCentrado img {
+        width: 380px;
+    }
 }
 @media screen and (max-width: 768px) {
 
     .game {
         display: none;
     }
+    .que__es__image{
+        width: 100%;
+    }
+    header{
+        height: 100px;
+    }
+    .container-header{
+        height: 85px;
+    }
+    .logo{
+        margin-top: -10px;
+        margin-left: 20px;
+    }
+    .caption__descripcion p {
+        font-size: 3rem;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        padding: 10px 15px;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s, border-color 0.3s;
+    }
+    .descarga__el__juego__parrafo{
+        font-size: 4rem;
+    }
+    .tiendas a{
+        width: 45%;
+        padding: 5px;
+    }
+    .descarga__el__juego .tiendas img{
+        width: 295px;
+    }
+    .como__se__juega__caption{
+        margin-left: -145px;
+        margin-top: -185px;
+        width: 100%;
+    }
+    footer{
+        margin-top: -5px;
+    }
+    .como__se__juega__paragraph{
+        font-size: 2.8rem;
+        width: 650px;
+        margin-left: -105px
+        }
+    .como__se__juega__hidden{
+        margin-top: 145px;
+    }
 
+.video__paragraph{
+    font-size: 3rem;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, border-color 0.3s;
+    margin-top: 45px;
+}
+.Centrado_Final{
+    width: 90%;
+        margin-left: 35px;
+        margin-top: -250px;
+}
+.caption_final{
+    margin-top: 80px;
+    height: 405px;
+}
+.descarga__el__juego{
+    margin-top: 120px;
+    margin-bottom: -145px;
+}
+.redes{
+    width: 175px;
+}
+.content-redes img{
+    width: 55px;
+}
+
+.content-redes a{
+    font-size: 25px;
+}
+.redes h3{
+    font-size: 3.5rem;
+}
+        .imageCentrado{
+        margin-left: 150px;
+    }
+    .imageCentrado img {
+        width: 300px;
+    }
     .close-bar,
     .menu_bar {
         display: block;
@@ -435,6 +965,18 @@
         height: 400px;
     }
 
+    header{
+        width: 100%;
+        height: 125px;
+    }
+    .imageCentrado{
+        margin-left: 110px;
+    }
+    .caption__descripcion{
+        margin-top: -30px;
+        width: 90%;
+        margin-left: 30px;
+    }
     .play__btn {
         position: relative;
         z-index: 2;
@@ -452,7 +994,7 @@
     }
 
     .caption__descripcion p {
-        font-size: 1.6rem;
+        font-size: 2.5rem;
 
         background-color: #f0f0f0; /* Color de fondo sutil */
         border-radius: 10px; /* Bordes redondeados */
@@ -462,12 +1004,15 @@
         transition: background-color 0.3s, border-color 0.3s; /* Transición suave */
       
     }
+    .caption_final{
+        margin-top: 50px;
+    }
     .bg_final{
         margin-top: 5px;
         height: 500px;
     }
     footer{
-        margin-top: 430px;
+        margin-top: 295px;
     }
     .descarga__el__juego__parrafo {
         width: 100%;
@@ -489,7 +1034,9 @@
     }
 
     .como__se__juega__caption {
-        padding: 0;
+        margin-top: -300px;
+        margin-left: -115px;
+        width: 95%;
     }
 
     .como__se__juega__container {
@@ -497,18 +1044,21 @@
     }
 
     .como__se__juega__hidden {
-        height: 70vh;
+        height: 45vh;
     }
 
-    .video__paragraph {
-        font-size: 1.8rem;
-        background-color: #f0f0f0; /* Color de fondo sutil */
-        border-radius: 10px; /* Bordes redondeados */
-        padding: 10px 15px; /* Espaciado interno (padding) */
-        border: 1px solid #ddd; /* Borde sutil */
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-        transition: background-color 0.3s, border-color 0.3s; /* Transición suave */
+    .video__paragraph {        font-size: 2.5rem;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        padding: 10px 15px;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s, border-color 0.3s;
+        margin-top: 25px;
       
+    }
+    .como__se__juega__paragraph{
+        font-size: 2.1rem;
     }
 
     .caption-text p {
@@ -527,12 +1077,53 @@
         flex-direction: column;
         text-align: center;
     }
+    header{
+        width: 100%;
+        height: 125px;
+    }
+    .imageCentrado{
+        margin-left: 85px;
+    }
+    
+    .caption__descripcion{
+        margin-top: -30px;
+        width: 90%;
+        margin-left: 30px;
+    }
+    .como__se__juega__hidden{
+        height: 40hv;
+    }
+    
+    .caption_final{
+        margin-top: 55px;
+    }
+    
+    footer{
+        margin-top: 115px;
+    }
 }
 
 @media screen and (max-width: 530px) {
     .content-footer {
         flex-direction: column;
         gap: 30px;
+    }
+    
+    .logo{
+        width: 120px;
+    }
+    .imageCentrado{
+        margin-left: 35px;
+    }
+    .video__paragraph{
+        margin-top: 35px;
+    }
+    .banner__premios{
+        background-size: 720%;
+    }
+    .como__se__juega__paragraph{
+        width: 95%;
+        margin-left: 5px;
     }
 
     .logo-netdreams {
@@ -581,7 +1172,18 @@
     header {
         padding: 1rem;
     }
-
+    footer{
+        margin-top: 260px;
+    }
+    .imageCentrado{
+        margin-left: 35px;
+    }
+    .caption__descripcion{
+        margin-top: 20px;
+    }
+    .como__se__juega__caption{
+    margin-left: 0px;
+    }
     .container-header {
         padding: 0;
         margin-bottom: 50px;
@@ -656,7 +1258,7 @@
     }
 
     .como__se__juega__hidden {
-        height: 45vh;
+        height: 0vh;
     }
 
     .content-footer {
