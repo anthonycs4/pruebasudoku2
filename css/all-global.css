@@ -92,7 +92,9 @@ html {
     font-size: 10px;
     scroll-behavior: smooth;
 }
-
+.bodypage{
+    max-width: 100%;
+}
 .bodypage p {
     text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.6);
 }
@@ -276,11 +278,12 @@ h2 {
 
 .content-footer {
     background: url(../images/footer.png);
-    background-size: cover;
+    background-size: 150%;
     padding: 100px 20px;
     display: flex;
     justify-content: center;
     gap: 250px;
+    
 }
 
 .logo-netdreams {

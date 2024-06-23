@@ -19,10 +19,7 @@
         min-width: 1024px;
     }
 
-    .bodypage {
-        min-width: 720px;
-        max-width: 100%;
-    }
+    
 }
 
 @media screen and (max-width: 1240px) {

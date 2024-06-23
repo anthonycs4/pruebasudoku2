@@ -181,9 +181,12 @@
 }
 
 .que__es__image img {
-    width: 750px;
+    width: 540px;
     display: block;
     margin: auto;
+}
+.Centrado_Final{
+    margin-left: -55px;
 }
 
 .widget{
