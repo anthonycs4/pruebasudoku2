@@ -110,21 +110,21 @@
 /* QUE ES NETDREAMS SUDOKU */
 
 .que__es__content {
-    width: 80%;
+    width: 100%;
     display: flex;
     grid-template-columns: 680px auto;
     align-items: left;
     justify-content: flex-start;
-    margin-left: 100px;
+    
 }
 .que__es__caption{
-    margin-left: 50px;
+    margin-left: -55px;
 }
 .caption__descripcion{
-    width: 490px;
+    width: 650px;
 }
 .caption__descripcion p {
-    font-size: 18px;
+    font-size: 25px;
     color: #333;
     line-height: 1.6;
     margin-top: 20px;
@@ -163,7 +163,7 @@
 .descarga__el__juego__parrafo {
     width: 95%;
     font-family: Fredoka One;
-    font-size: 2.15rem;
+    font-size: 2.8rem;
     color: var(--morado);
 
 }
@@ -177,7 +177,7 @@
 }
 
 .descarga__el__juego .tiendas img {
-    width: 145px;
+    width: 192px;
 }
 
 .tiendas a:hover {
@@ -186,13 +186,13 @@
 }
 
 .que__es__image img {
-    width: 600px;
-    height: 600px;
+    width: 850px;
+    height: 800px;
     display: flex;
 }
 .Centrado_Final{
-    margin-left: -5px;
-    margin-top: 95px;
+    margin-left: 120px;
+    margin-top: 270px;
 }
 
 .widget{
@@ -227,9 +227,9 @@
     background-image: url(../images/Como_jugar1.png);
     background-size: cover;
     background-position: center;
-    padding: 400px 0; /* Ajusta el padding según sea necesario para el contenido */
+    padding: 550px 0; /* Ajusta el padding según sea necesario para el contenido */
     position: relative; /* Asegura un contexto de posicionamiento para elementos hijos absolutos */
-
+    margin-top: 150px;
 }
 
 .como__se__juega.aleman{
@@ -279,11 +279,11 @@ margin-top: 70px;
 
 .como__se__juega__caption {
     position: absolute;
-    top: 75px;
-    left: 75%;
+    top: 170px;
+    left: 85%;
     transform: translate(-50%, -50%);
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
     padding: 15px;
 }
 .como__se__juega__caption img{
@@ -296,12 +296,14 @@ margin-top: 70px;
     margin: 0;
     margin: 0 0 25px auto;
 }
-
+.centradoFinal{
+    margin-left: 50px;
+}
 
 
 
 .como__se__juega__paragraph {
-    font-size: 2rem;
+    font-size: 25px;
     color: #333;
     line-height: 1.7;
     margin-top: 20px;
@@ -309,7 +311,7 @@ margin-top: 70px;
 }
 
 .Titulo_Final {
-    margin-top: 35px;
+    margin-top: -50 px;
 }
 
 .Titulo_Final img{
@@ -317,11 +319,11 @@ max-width: 100%;
 }
 .bg_final {
     background-image: url(../images/bg_final.png);
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
-    padding: 120px 0; /* Ajusta el padding según sea necesario para el contenido */
+    padding: 50px 0; /* Ajusta el padding según sea necesario para el contenido */
     position: relative;
-    margin-top: 170px; /* Asegura un contexto de posicionamiento para elementos hijos absolutos */
+    margin-top: 350px; /* Asegura un contexto de posicionamiento para elementos hijos absolutos */
 
 }
 .como__se__juega__hidden img {
@@ -336,7 +338,7 @@ max-width: 100%;
     background-size: cover;
     background-position: center center;
     padding: 20px 0;
-    margin-top: -50px;
+    margin-top: -30px;
 }
 
 .content__premios{
@@ -431,7 +433,7 @@ max-width: 100%;
 /* VIDEO */
 
 .container_video{
-    margin-top: 300px;
+    margin-top: 530px;
 }
 .video{
 margin-top: -40px;
@@ -440,14 +442,14 @@ margin-top: -40px;
     width: 80%;
     margin: auto;
     text-align: center;
-    font-size: 2rem;
+    font-size: 5rem;
     font-family: Nunito-medium;
 }
 
 .video a,
 .video img {
     width: 90%;
-    max-width: 750px;
+    max-width: 980px;
     display: block;
     margin: 35px auto 0;
 }
