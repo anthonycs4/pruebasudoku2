@@ -1,8 +1,9 @@
 .logo {
-    width: 175px; /* Ancho deseado para el div */
+    width: 185px; /* Ancho deseado para el div */
     height: 50px; /* Alto deseado para el div */
-    padding: 10px; /* Espacio interior de 10px */
+    padding: 3px; /* Espacio interior de 10px */
     text-align: center; /* Centra el contenido del div */
+    margin-top: -15px;
 }
 .imageCentrado{
     margin-top: 70px;
@@ -61,7 +62,7 @@
   border-radius: 20px;
   display: inline-block;
   text-align: center;
-  width: 500px;
+  width: 645px;
   text-align: justify;
 
   }
@@ -141,7 +142,7 @@ section {
     justify-content: space-between;
     align-items: center;
     font-family: Fredoka One;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 
 }
 

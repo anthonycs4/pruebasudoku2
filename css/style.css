@@ -200,7 +200,7 @@
     justify-content: center;
     /* padding: 32px 0 16px ; */
     background-color: #292f3b;
-    height: 240px;
+    height: 275px;
     /* background-image: url(/images/fondo_banner_steam.png); */
 
     & iframe{
@@ -225,10 +225,7 @@
 
 .como__se__juega.english {
     background-image: url(../images/Como_jugar1.png);
-    background-size: cover;
-    background-position: center;
-    padding: 550px 0; /* Ajusta el padding según sea necesario para el contenido */
-    position: relative; /* Asegura un contexto de posicionamiento para elementos hijos absolutos */
+    padding: 550px 0px; /* Ajusta el padding según sea necesario para el contenido */
     margin-top: 150px;
 }
 
@@ -274,7 +271,7 @@
     justify-content: center; /* Centra el contenido horizontalmente */
     align-items: center; /* Centra el contenido verticalmente */
     position: relative; /* Asegura un contexto de posicionamiento para elementos hijos absolutos */
-margin-top: 70px;
+margin-top: -50px;
 }
 
 .como__se__juega__caption {
@@ -311,17 +308,30 @@ margin-top: 70px;
 }
 
 .Titulo_Final {
-    margin-top: -50 px;
+    margin-top: 80px;
 }
-
-.Titulo_Final img{
-max-width: 100%;
+.container-final{
+    margin-left: 190px;
+    margin-top: -100px;
+}
+.descarga__el__juego_final{
+    width: 600px;
+    gap: 15px;
+}
+.descarga__el__juego_final .tiendas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+.descarga__el__juego_final .tiendas img {
+    width: 220px;
 }
 .bg_final {
     background-image: url(../images/bg_final.png);
     background-size: 100%;
     background-position: center;
-    padding: 50px 0; /* Ajusta el padding según sea necesario para el contenido */
+    padding: 190px 0; /* Ajusta el padding según sea necesario para el contenido */
     position: relative;
     margin-top: 350px; /* Asegura un contexto de posicionamiento para elementos hijos absolutos */
 
