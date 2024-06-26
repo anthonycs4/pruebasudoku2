@@ -1,42 +1,8 @@
-
-@font-face {
-    font-family: Fredoka One;
-    src: url(../fonts/FredokaOne-Regular.ttf);
-}
-@font-face {
-    font-family: Fredoka-Bold;
-    src: url(../fonts/Fredoka-Bold.ttf);
-}
-
-@font-face {
-    font-family: Fredoka-SemiBold;
-    src: url(../fonts/Fredoka-SemiBold.ttf);
-}
-
-
-@font-face {
-    font-family: Nunito;
-    src: url(../fonts/Nunito-Regular.ttf);
-}
-
-@font-face {
-    font-family: Nunito-medium;
-    src: url(../fonts/Nunito-Medium.ttf);
-}
-
-@font-face {
-    font-family: Nunito-bold;
-    src: url(../fonts/Nunito-Bold.ttf);
-}
-@font-face {
-    font-family: Nunito-SemiBold;
-    src: url(../fonts/Nunito-SemiBold.ttf);
-}
 .table__game .table {
     position: relative;
     width: 550px;
     height: 585px;
-    /*  background-image: url(/images/tablero-juego.png); */
+    /* background-image: url(../images/tablero-juego.png); */
     background-size: cover;
     display: grid;
     place-content: center;
@@ -51,8 +17,6 @@
     bottom: 0;
     background: linear-gradient(172.27deg, rgba(255, 255, 255, 0.35) 2.75%, rgba(255, 255, 255, 0.15) 86.02%);
     backdrop-filter: blur(5px);
-    /* Note: backdrop-filter has minimal browser support */
-
     border-radius: 15px 0px 0px 15px;
 }
 
@@ -60,8 +24,6 @@
     display: flex;
     justify-content: space-between;
 }
-
-
 
 .game {
     margin-top: 30px;
@@ -86,7 +48,6 @@
     display: none;
 }
 
-
 /* Bounce In */
 .hvr-bounce-in {
     display: inline-block;
@@ -110,64 +71,50 @@
 /* QUE ES NETDREAMS SUDOKU */
 
 .que__es__content {
-    width: 100%;
-    display: flex;
+    width: 90%;
+    display: grid;
     grid-template-columns: 680px auto;
-    align-items: left;
-    justify-content: flex-start;
-    
+    align-items: center;
+    justify-content: space-between;
 }
-.que__es__caption{
-    margin-left: -55px;
-}
-.caption__descripcion{
-    width: 650px;
-}
+
 .caption__descripcion p {
-    font-size: 25px;
-    color: #333;
-    line-height: 1.6;
-    margin-top: 20px;
-    text-align: justify;
-    margin-right: 15px;
+    font-size: 2rem;
     font-family: Nunito-SemiBold;
+    text-align: justify;
+
 }
 
 .titulo {
     width: fit-content;
     text-align: center;
     margin: 25px auto;
-    font-size: 3.6rem;
+    font-size: 3.8rem;
     color: #FFF;
-    font-family: Fredoka One;
-    text-transform: uppercase;
+    font-family: Fredoka-SemiBold;
     border-radius: 22px;
     padding: 20px 30px;
 }
 
-.titulo--morado {
-    background-color: var(--morado);
-    border: 5px solid #964BFE;
-}
 
 .titulo--celeste {
     background-color: var(--celeste);
-    border: 5px solid #5C9BFF;
+    text-align: justify;
 }
 
-
 .descarga__el__juego {
-    margin-top: 14px;
+    margin-top: 35px;
+}
+.descarga__el__juego_final {
+    margin-top: 35px;
 }
 
 .descarga__el__juego__parrafo {
     width: 95%;
     font-family: Fredoka One;
-    font-size: 2.8rem;
+    font-size: 2.4rem;
     color: var(--morado);
-
 }
-
 
 .descarga__el__juego .tiendas {
     display: flex;
@@ -175,89 +122,91 @@
     gap: 16px;
     margin-top: 20px;
 }
-
-.descarga__el__juego .tiendas img {
-    width: 192px;
+.descarga__el__juego_final .tiendas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 20px;
 }
-
+.que__es__caption_final{
+    margin-top: 470px;
+}
+.descarga__el__juego .tiendas img {
+    width: 190px;
+}
+.descarga__el__juego_final .tiendas img {
+    width: 225px;
+}
 .tiendas a:hover {
     transform: scale(1.05);
     transition: 300ms ease all;
 }
 
 .que__es__image img {
-    width: 850px;
-    height: 800px;
-    display: flex;
-}
-.Centrado_Final{
-    margin-left: 120px;
-    margin-top: 270px;
+    width: 750px;
+    display: block;
+    margin: auto;
 }
 
-.widget{
+.widget {
     display: flex;
     justify-content: center;
-    /* padding: 32px 0 16px ; */
+    padding: 32px 0 16px;
     background-color: #292f3b;
-    height: 275px;
-    /* background-image: url(/images/fondo_banner_steam.png); */
 
-    & iframe{
-        width: 60%;
-        height: 195px;
-        background-image: url(../images/fondo_banner_steam.png);
-
-    }
 }
 
-
+.widget iframe {
+    width: 60%;
+    height: 195px;
+}
 
 /* COMO SE JUEGA EL JUEGO */
 
 .como__se__juega {
     width: 100%;
     max-width: 100%;
-    background-image: url(../images/como-se-juega-sudoku-bg-desktop.png);
+    background-image: url(../images/Como_jugar.png);
     background-size: cover;
     margin-bottom: 0;
 }
 
 .como__se__juega.english {
-    background-image: url(../images/Como_jugar1.png);
-    padding: 550px 0px; /* Ajusta el padding según sea necesario para el contenido */
-    margin-top: 150px;
+    background-image: url(../images/Como_jugar.png);
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
 }
 
-.como__se__juega.aleman{
+.como__se__juega.aleman {
     background-image: url(../images/como-se-juega-sudoku-bg-aleman.png);
     width: 100%;
     max-width: 100%;
     background-size: cover;
 }
 
-.como__se__juega.chino{
+.como__se__juega.chino {
     background-image: url(../images/como-se-juega-sudoku-bg-chino.png);
     width: 100%;
     max-width: 100%;
     background-size: cover;
 }
 
-.como__se__juega.coreano{
+.como__se__juega.coreano {
     background-image: url(../images/como-se-juega-sudoku-bg-coreano.png);
     width: 100%;
     max-width: 100%;
     background-size: cover;
 }
 
-.como__se__juega.frances{
+.como__se__juega.frances {
     background-image: url(../images/como-se-juega-sudoku-bg-frances.png);
     width: 100%;
     max-width: 100%;
     background-size: cover;
 }
 
-.como__se__juega.portugues{
+.como__se__juega.portugues {
     background-image: url(../images/como-se-juega-sudoku-bg-portugues.png);
     width: 100%;
     max-width: 100%;
@@ -265,111 +214,63 @@
 }
 
 .como__se__juega__container {
-    max-width: 1240px;
+    max-width: 1500px;
     margin: auto;
-    display: flex;
-    justify-content: center; /* Centra el contenido horizontalmente */
-    align-items: center; /* Centra el contenido verticalmente */
-    position: relative; /* Asegura un contexto de posicionamiento para elementos hijos absolutos */
-margin-top: -50px;
+    display: grid;
+    grid-template-columns: 1fr 585px;
+    align-items: flex-start;
+    padding-bottom: 400px;
 }
 
 .como__se__juega__caption {
-    position: absolute;
-    top: 170px;
-    left: 85%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    max-width: 600px;
-    padding: 15px;
+    margin-top: 430px;
 }
-.como__se__juega__caption img{
-    width: 470px;
-    height: 110px;
-    margin-left: 235px;
-}
+
 .como__se__juega__caption .titulo {
     text-align: end;
     margin: 0;
     margin: 0 0 25px auto;
 }
-.centradoFinal{
-    margin-left: 50px;
-}
-
-
 
 .como__se__juega__paragraph {
-    font-size: 25px;
-    color: #333;
-    line-height: 1.7;
-    margin-top: 20px;
+    font-size: 2rem;
+    text-align: end;
+    font-family: Nunito-medium;
     text-align: justify;
-}
-
-.Titulo_Final {
-    margin-top: 80px;
-}
-.container-final{
-    margin-left: 190px;
-    margin-top: -100px;
-}
-.descarga__el__juego_final{
-    width: 600px;
-    gap: 15px;
-}
-.descarga__el__juego_final .tiendas {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 20px;
-}
-.descarga__el__juego_final .tiendas img {
-    width: 220px;
-}
-.bg_final {
-    background-image: url(../images/bg_final.png);
-    background-size: 100%;
-    background-position: center;
-    padding: 190px 0; /* Ajusta el padding según sea necesario para el contenido */
-    position: relative;
-    margin-top: 350px; /* Asegura un contexto de posicionamiento para elementos hijos absolutos */
 
 }
+
 .como__se__juega__hidden img {
     display: none;
 }
 
+/* Banner premios */
 
-/* Banner  premios */
-
-.banner__premios{
+.banner__premios {
     background: url(../images/bg-premios.jpg);
     background-size: cover;
     background-position: center center;
     padding: 20px 0;
-    margin-top: -30px;
 }
 
-.content__premios{
+.content__premios {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-
-.caption__title{
+.caption__title {
     display: flex;
     gap: 15px;
     align-items: center;
     width: 350px;
 }
 
-.caption__title.aleman{
+.caption__title.aleman {
     width: 450px;
 }
 
-.caption__title .title{
+.caption__title .title {
     font-size: 3.2rem;
     padding-bottom: 10px;
     border-bottom: 2px solid #FFF;
@@ -378,13 +279,13 @@ margin-top: -50px;
     color: white;
 }
 
-.img__premio{
+.img__premio {
     display: flex;
     gap: 25px;
 }
 
-.img__premio img{
-    width: 80%;
+.img__premio img {
+    width: 95%;
     display: block;
     margin: 10px auto;
     max-width: 280px;
@@ -395,10 +296,16 @@ margin-top: -50px;
 .content__caption {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     margin-top: 60px;
 }
-
+.content__caption_final {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 680px auto;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .caption-celular h2 {
     margin-bottom: 40px;
@@ -419,8 +326,6 @@ margin-top: -50px;
     margin: auto;
 }
 
-
-
 .download {
     display: flex;
     align-items: center;
@@ -439,27 +344,20 @@ margin-top: -50px;
     width: 200px;
 }
 
-
 /* VIDEO */
 
-.container_video{
-    margin-top: 530px;
-}
-.video{
-margin-top: -40px;
-}
 .video__paragraph {
     width: 80%;
     margin: auto;
     text-align: center;
-    font-size: 5rem;
-    font-family: Nunito-medium;
+    font-size: 2rem;
+    font-family: Nunito-SemiBold;
 }
 
 .video a,
 .video img {
     width: 90%;
-    max-width: 980px;
+    max-width: 750px;
     display: block;
     margin: 35px auto 0;
 }
@@ -491,7 +389,6 @@ margin-top: -40px;
     grid-template-columns: 380px 1fr;
     gap: 50px;
     justify-content: space-between;
-
 }
 
 .comments__container {
@@ -501,7 +398,6 @@ margin-top: -40px;
     align-items: flex-start;
     gap: 20px;
 }
-
 
 .comment {
     position: relative;
@@ -553,4 +449,11 @@ margin-top: -40px;
     font-size: 1.4rem;
     text-align: center;
     margin-top: 1.6rem;
+}
+.que__es__content_final {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 680px auto;
+    align-items: center;
+    justify-content: space-between;
 }

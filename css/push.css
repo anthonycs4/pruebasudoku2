@@ -1,11 +1,11 @@
 
 @font-face {
   font-family: Nunito-medium;
-  src: url(../fonts/Nunito-Medium.ttf);
+  src: url(/fonts/Nunito-Medium.ttf);
 }
 
 main{
-    background: url(../images/netdreams-sudoku-logo.svg);
+    background: url(/images/netdreams-sudoku-logo.svg);
     background-position: center;
     background-size: 50%;
     background-repeat: no-repeat;

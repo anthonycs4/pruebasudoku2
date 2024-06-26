@@ -259,7 +259,7 @@ body {
     align-items: center;
     gap: 10px;
     padding: 15px 30px;
-    background: url(../images/btn-background.svg);
+    background: url(/images/btn-background.svg);
     background-size: 100% 100%;
     border-radius: 15px;
     text-decoration: none;

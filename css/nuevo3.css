@@ -8,7 +8,7 @@
     & iframe{
         width: 60%;
         height: 195px;
-        background-image: url(../images/fondo_banner_steam.png);
+        background-image: url(/images/fondo_banner_steam.png);
 
     }
 }
@@ -19,7 +19,7 @@
     color: var(--morado);
 }
 .como__se__juega.english1 {
-    background-image: url(../images/Como_jugar1.png);
+    background-image: url(/images/Como_jugar1.png);
     background-size: cover;
     background-position: center;
     padding: 245px 0; /* Ajusta el padding según sea necesario para el contenido */
@@ -64,7 +64,7 @@
 max-width: 100%;
 }
 .bg_final {
-    background-image: url(../images/bg_final.png);
+    background-image: url(/images/bg_final.png);
     background-size: cover;
     background-position: center;
     padding: 80px 0; /* Ajusta el padding según sea necesario para el contenido */
@@ -81,7 +81,7 @@ max-width: 100%;
     background-color: #fffdfd;
 }
 .content-footer1 {
-    background: url(../images/fondo-footer.png);
+    background: url(/images/fondo-footer.png);
     background-size: cover;
     padding: 100px 20px;
     display: flex;
