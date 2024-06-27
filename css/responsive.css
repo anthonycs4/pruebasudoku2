@@ -619,13 +619,33 @@
     header {
         padding: 1rem;
     }
+    .que__es__image img {
+        margin-left: 35px;
+    }
     .que__es__content, .que__es__content_final{
         margin-left: 10px;
     }   
-    .que__es__captionIMG img {
-        width: 180px;
+    .que__es__content .que__es__caption .que__es__captionIMG img {
         margin-left: 80px;
+        width: 50%;
     }
+    .caption__descripcion{
+        width: 250px;
+        margin-left: 45px;
+    }
+    .descarga__el__juego__parrafo{
+        margin-left: 35px;
+    }
+    .descarga__el__juego .tiendas {
+        margin-left: 65px;
+    }
+    .como__se__juega__caption{
+        margin-top: -400px;
+        width: 285px;
+    }
+
+
+
     
     .container-header {
         padding: 0;
@@ -726,5 +746,32 @@
     .que__es__caption_final {
         margin-top: -150px;
         padding: 0px 15px;
+    }
+}
+@media screen and (max-width: 326px) {
+    .que__es__content, .que__es__content_final {
+        margin-left: 0px;
+    }
+    .caption__descripcion p {
+        font-size: 1.5rem;
+    }
+    .descarga__el__juego__parrafo {
+        width: 325px;
+        font-size: 20px;
+        margin-left: 72px;
+    }
+    .como__se__juega__caption {
+        margin-top: -430px;
+    }
+    .que__es__caption_final {
+        width: 335px;
+        padding: 0px 2px;
+        margin-left: 25px;
+        margin-top: -10px;
+    }
+
+    .caption__descripcion p {
+        margin-left: 15px;
+    
     }
 }
