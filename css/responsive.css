@@ -486,7 +486,16 @@
         align-items: center;
     }
 }
-
+@media screen and (max-width:720px){
+    .que__es__image img {
+        max-width: 490px;
+        width: 85%;
+        margin-left: 10px;
+    }
+    .que__es__content .que__es__caption .que__es__captionIMG img {
+        margin-left: 115px;
+    }
+}
 @media screen and (max-width: 600px) {
     .table__game .table {
         position: relative;
@@ -747,7 +756,11 @@
         margin-top: -150px;
         padding: 0px 15px;
     }
+    .que__es__content_final p{
+        margin-left: -30px;
+    }
 }
+
 @media screen and (max-width: 326px) {
     .que__es__content, .que__es__content_final {
         margin-left: 0px;
