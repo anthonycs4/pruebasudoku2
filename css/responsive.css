@@ -761,13 +761,16 @@
         margin-left: 72px;
     }
     .como__se__juega__caption {
-        margin-top: -430px;
+        margin-top: -465px;
     }
     .que__es__caption_final {
         width: 335px;
         padding: 0px 2px;
         margin-left: 25px;
         margin-top: -10px;
+    }
+    .como__se__juega.english {
+        margin-top: 265px;
     }
 
     .caption__descripcion p {
