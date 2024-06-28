@@ -652,6 +652,15 @@
         margin-top: -470px;
         width: 285px;
     }
+    .como__se__juega__hidden_final img {
+        display: flex;
+        margin-top: 720px;
+        width: 435px;
+    }
+    .que__es__content_final{
+        margin-top: 90px;
+        padding-bottom: 60px;
+    }
 
 
 
