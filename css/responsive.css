@@ -250,7 +250,7 @@
         margin-left: -69px;
     }
     .que__es__content .que__es__caption .que__es__captionIMG img {
-        margin-left: 175px;
+        margin-left: 110px;
     }
     .que__es__content{
         margin-left: 85px;
@@ -339,10 +339,20 @@
         align-items: center;
     }
     .caption__descripcion p ,.como__se__juega__paragraph,.video__paragraph{
-        background: rgb(245,245,245);
-background: linear-gradient(90deg, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 50%, rgba(245,245,245,1) 100%);
+        background: #ffffff;
         border-radius: 10px;
+   
+        text-align: justify;
+        padding: 10px 10px;
     }
+    .caption__descripcion{
+    margin: 10px auto; 
+    width: 100%;
+    }
+    .que__es__content, .que__es__content_final {
+        margin-left: 55px;
+    }
+
 }
 @media screen and (max-width: 769px) {
     .game {
@@ -351,6 +361,7 @@ background: linear-gradient(90deg, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 5
     .que__es__image img {
         max-width: 490px;
         width: 85%;
+        margin-left: 5px;
     }
     .que__es__content, .que__es__content_final {
         margin-left: 50px;
@@ -368,7 +379,7 @@ background: linear-gradient(90deg, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 5
         margin-top: -230px;
     }
     .background-group-2 {
-        padding: 105px 0;
+        padding: 0 0;
     }
 
     
@@ -379,7 +390,9 @@ background: linear-gradient(90deg, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 5
         display: block;
         cursor: pointer;
     }.que__es__caption_final{
-        margin-top: 100px;
+        margin-top: 0px;
+        padding:170px 0;
+
     }
 
     .navigation {
@@ -532,7 +545,7 @@ background: linear-gradient(90deg, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 5
     }
 
     .descarga__el__juego .tiendas {
-        margin-top: 45px;
+        margin-top: 30px;
     }
 
     .que__es__netdreams__sudoku {
@@ -647,7 +660,8 @@ background: linear-gradient(90deg, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 5
         margin-left: 45px;
     }
     .descarga__el__juego__parrafo{
-        margin-left: 35px;
+        margin-left: 95px;
+        width: 255px;
     }
     .descarga__el__juego .tiendas {
         margin-left: 65px;
