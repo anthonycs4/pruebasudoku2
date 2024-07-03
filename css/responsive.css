@@ -97,10 +97,10 @@
         gap: 100px;
         box-shadow: 0px -4px 10px 0px #00000026;
     }
-    .background-group-2{
+    /* .background-group-2{
         background: url(../images/background_2.png);
 
-    }
+    } */
 
     .como__se__juega__container {
         grid-template-columns: 1fr 600px;
@@ -595,6 +595,8 @@
     .content-footer {
         flex-direction: column;
         gap: 30px;
+    }.content-redes {
+        flex-direction: row;
     }
 
     .logo-netdreams {
@@ -667,7 +669,7 @@
         margin-left: 65px;
     }
     .como__se__juega__caption{
-        margin-top: -470px;
+        margin-top: -500px;
         width: 285px;
     }
     .como__se__juega__hidden_final img {
@@ -785,6 +787,9 @@
     }
     .que__es__content_final p{
         margin-left: -30px;
+    }
+    .titulo--celeste {
+        text-align: -webkit-center;
     }
 }
 

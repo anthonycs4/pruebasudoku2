@@ -53,20 +53,20 @@ html {
 }
 
 body {
-    /* background: url(../images/background.jpg);
+    background: url(../images/FondoRFinal.png);
     background-size: 100%;
     font-family: Nunito;
-    color: var(--negro); */
+    color: var(--negro);
 }
 /* Nuevos estilos CSS para los fondos */
-.background-group-1 {
+/* .background-group-1 {
     background: url(../images/background_1.png);
 background-size: 100%;
 font-family: Nunito;
 color: var(--negro);
 padding: 45px 0;
 
-}
+} */
 
 .background-group-2 {
     background: url(../images/fondoestrella.png);
