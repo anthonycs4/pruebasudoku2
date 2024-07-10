@@ -245,6 +245,13 @@
     .widget iframe {
         width: 90%;
     }
+    .background-group {
+        background: url(../images/fondo_final.png);
+        background-size: 0%;
+        font-family: Nunito;
+        color: var(--negro);
+        padding: 0px 0;
+    }
 }
 @media screen and (max-width: 985px) {
     .que__es__image img {
