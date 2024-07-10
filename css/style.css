@@ -100,7 +100,6 @@
 .titulo--celeste {
     background-color: var(--celeste);
     text-align: justify;
-    text-transform: lowercase;
 
 }
 

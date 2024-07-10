@@ -82,7 +82,10 @@ padding: 0px 0;
 /* ESTRUCTURAS DE LA WEB QUE SE REPITEN EN LAS PAGINAS */
 
 /* Header */
-
+section.que__es__netdreams__sudoku{
+    background: url(../images/1raseccion.png);
+   
+}
 header {
     padding: 1em 0;
     background: var(--moradoGradiente);
