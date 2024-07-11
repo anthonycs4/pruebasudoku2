@@ -149,12 +149,17 @@
     display: block;
     margin: auto;
 }
-
+.que__es__imagef img {
+    width: 750px;
+    display: block;
+    margin: auto;
+}
 .widget {
     display: flex;
     justify-content: center;
-    padding: 32px 0 16px;
+    padding: 0px 0 16px;
     background-color: #292f3b;
+    height: 170px;
 
 }
 

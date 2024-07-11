@@ -53,7 +53,7 @@ html {
 }
 
 body {
-    background: url(../images/FondoRFinal.png);
+    background: url(../images/FondoR.png);
     background-size: 100%;
     font-family: Nunito;
     color: var(--negro);
@@ -68,8 +68,15 @@ padding: 45px 0;
 
 } */
 
+.logo1 {
+    width: 175px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    margin-top: -20px;
+}
 .background-group {
-    background: url(../images/fondo_final.png);
+    /* background: url(../images/fondo_final.png); */
 background-size: 100%;
 font-family: Nunito;
 color: var(--negro);
@@ -82,21 +89,21 @@ padding: 0px 0;
 /* ESTRUCTURAS DE LA WEB QUE SE REPITEN EN LAS PAGINAS */
 
 /* Header */
-section.que__es__netdreams__sudoku{
+/* section.que__es__netdreams__sudoku{
     background: url(../images/1raseccion.png);
    
-}
+} */
 header {
     padding: 1em 0;
     background: var(--moradoGradiente);
     color: #FFF;
 }
-.caption__descripcion p, .como__se__juega__paragraph, .video__paragraph {
+/* .caption__descripcion p, .como__se__juega__paragraph, .video__paragraph {
     background: #ffffff;
     border-radius: 10px;
     text-align: justify;
     padding: 18px 18px;
-}
+} */
 section {
     width: 100%;
     max-width: 1350px;
@@ -119,7 +126,7 @@ section.video {
 }
 
 .que__es__netdreams__sudoku {
-    margin: 50px auto;
+    margin: 5px auto;
 }
 
 .container-header {

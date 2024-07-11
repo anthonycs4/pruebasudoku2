@@ -50,6 +50,11 @@
         display: block;
         margin: auto;
     }
+    .que__es__imagef img {
+        width: 569px;
+        display: block;
+        margin: auto;
+    }
     .que__es__content, .que__es__content_final {
         margin-left: 100px;
     }
@@ -61,7 +66,7 @@
     }
     .que__es__caption_final {
         margin-top: 55px;
-        padding: 90px 80px;
+        padding: 90px 38px;
     }
     .que__es__content_final {
         margin-left: 65px;
@@ -109,8 +114,7 @@
 
     .como__se__juega__caption {
         margin-top: 110px;
-        padding-top: 50px;
-    }
+        padding: 200px 0px 0px 150px    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -216,7 +220,10 @@
         max-width: 385px;
         width: 80%;
     }
-
+    .que__es__imagef img {
+        max-width: 385px;
+        width: 80%;
+    }
     .descarga__el__juego__parrafo {
         text-align: center;
         margin: 0 auto;
@@ -255,6 +262,11 @@
 }
 @media screen and (max-width: 985px) {
     .que__es__image img {
+        max-width: 455px;
+        width: 100%;
+        margin-left: -69px;
+    }
+    .que__es__imagef img {
         max-width: 455px;
         width: 100%;
         margin-left: -69px;
@@ -376,6 +388,11 @@
         width: 85%;
         margin-left: 5px;
     }
+    .que__es__imagef img {
+        max-width: 490px;
+        width: 85%;
+        margin-left: 5px;
+    }
     .que__es__content, .que__es__content_final {
         margin-left: 50px;
     }
@@ -390,6 +407,7 @@
     }
     .como__se__juega__caption {
         margin-top: -230px;
+        padding: 10px 50px 0 50px;
     }
     .background-group-2 {
         padding: 0 0;
@@ -518,6 +536,11 @@
 }
 @media screen and (max-width:720px){
     .que__es__image img {
+        max-width: 490px;
+        width: 85%;
+        margin-left: 10px;
+    }
+    .que__es__imagef img {
         max-width: 490px;
         width: 85%;
         margin-left: 10px;
@@ -663,6 +686,10 @@
     }
     .que__es__image img {
         margin-left: 35px;
+    }
+    .que__es__imagef img {
+        margin-left: 35px;
+        padding: 0 0 150px 0;
     }
     .que__es__content, .que__es__content_final{
         margin-left: 10px;
