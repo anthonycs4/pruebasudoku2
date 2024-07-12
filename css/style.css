@@ -173,7 +173,7 @@
 .como__se__juega {
     width: 100%;
     max-width: 100%;
-    background-image: url(../images/Como_jugar.png);
+    /* background-image: url(../images/Como_jugar.png); */
     background-size: cover;
     margin-bottom: 0;
 }
@@ -183,7 +183,7 @@
 }
 
 .como__se__juega.english {
-    background-image: url(../images/Como_jugar.png);
+    /* background-image: url(../images/Como_jugar.png); */
     width: 94%;
     background-size: contain;
 }
@@ -233,7 +233,7 @@
 }
 
 .como__se__juega__caption {
-    margin-top: 430px;
+    margin-top: 260px;
 }
 
 .como__se__juega__caption .titulo {
@@ -251,7 +251,8 @@
 }
 
 .como__se__juega__hidden img {
-    display: none;
+    display: flex;
+    width: 105%;
 }
 
 /* Banner premios */

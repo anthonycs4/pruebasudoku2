@@ -16,7 +16,7 @@
         height: 790px;
     }
     .como__se__juega__caption {
-        margin-top: 300px;
+        margin-top: 210px;
     }
     .como__se__juega__container {
         max-width: 1125px;
@@ -115,15 +115,22 @@
         grid-template-columns: 1fr 600px;
         padding-bottom: 200px;
     }
-
+    .como__se__juega__hidden{
+        padding-top: 195px;
+        width: 115%;
+    }
     .como__se__juega__caption {
-        margin-top: 110px;
-        padding: 175px 0px 0px 150px    }
+        padding: 115px 65px 0px 60px;
+        width: 95%;
+    }
 }
 
 @media screen and (max-width: 1200px) {
     .como__se__juega.english {
         height: 710px;
+    }
+    .como__se__juega__caption {
+        width: 90%;
     }
 }
 
@@ -141,7 +148,8 @@
 
     .como__se__juega__hidden img {
         display: block;
-        width: 120%;
+        width: 100%;
+        padding: 0px 45px 0px 95px;
 
     }
     .como__se__juega__caption {
@@ -576,6 +584,11 @@
     .que__es__content .que__es__caption .que__es__captionIMG img {
         margin-left: 75px;
     }
+    .como__se__juega__hidden img {
+        display: block;
+        width: 125%;
+        padding: 0px 65px 0px 0px;
+    }
 }
 @media screen and (max-width: 600px) {
     .table__game .table {
@@ -624,10 +637,13 @@
         background-size: 100%;
         background-repeat: no-repeat;
     }
+    .como__se__juega__hidden img {
+        padding: 55px 45px 0px 45px;
+        width: 115%;
+    }
 
     .como__se__juega__caption {
-        padding: 0;
-    }
+        padding: 10px 115px;    }
 
     .como__se__juega__container {
         gap: 150px;
