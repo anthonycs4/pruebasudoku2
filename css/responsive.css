@@ -50,6 +50,10 @@
         display: block;
         margin: auto;
     }
+    .que__es__captionIMG img{
+        width: 400px;
+    
+    }
     .que__es__imagef img {
         width: 569px;
         display: block;

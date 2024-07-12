@@ -177,6 +177,10 @@
     background-size: cover;
     margin-bottom: 0;
 }
+.que__es__captionIMG img{
+    width: 500px;
+
+}
 
 .como__se__juega.english {
     background-image: url(../images/Como_jugar.png);
