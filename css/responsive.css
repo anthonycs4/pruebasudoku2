@@ -114,7 +114,7 @@
 
     .como__se__juega__caption {
         margin-top: 110px;
-        padding: 200px 0px 0px 150px    }
+        padding: 175px 0px 0px 150px    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -130,15 +130,33 @@
     }
 
     .como__se__juega.english {
-        background-image: url(../images/como-se-juega-sudoku-mobile-eng.png);
+        /* background-image: url(../images/como-se-juega-sudoku-mobile-eng.png); */
         background-position: center;
+        background-image: none;
     }
 
-    .como__se__juega__hidden {
+    .como__se__juega__hidden img {
         display: block;
-        height: 800px;
-    }
+        width: 80%;
 
+    }
+    .como__se__juega__caption {
+        margin-top: 110px;
+        padding: 175px 50px 0px 50px;
+    }
+    .como__se__juega__hidden{
+        margin-top: -275px;
+    padding: 53px 200px 0px 200px;
+    }
+    .que__es__imagef img {
+        width: 444px;
+    }
+    .descarga__el__juego .tiendas img {
+        width: 150px;
+    }
+    .descarga__el__juego_final .tiendas img {
+        width: 170px;
+    }
     .como__se__juega__container {
         display: flex;
         flex-direction: column-reverse;
