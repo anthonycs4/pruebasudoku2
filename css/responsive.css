@@ -305,6 +305,9 @@
     .caption__descripcion{
         margin-left: -70px;
     }
+    section.video {
+        margin: 230px auto;
+    }
     .descarga__el__juego{
         margin-left: -50px;
     }
