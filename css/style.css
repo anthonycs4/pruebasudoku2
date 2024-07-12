@@ -180,9 +180,9 @@
 
 .como__se__juega.english {
     background-image: url(../images/Como_jugar.png);
-    width: 100%;
+    width: 90%;
     max-width: 100%;
-    background-size: cover;
+    background-size: contain;
 }
 
 .como__se__juega.aleman {
