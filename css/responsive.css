@@ -79,7 +79,7 @@
         width: 210px;
     }
     section.video {
-        margin: 20px auto;
+        margin: 150px auto;
     }
     
 }
@@ -141,7 +141,7 @@
 
     .como__se__juega__hidden img {
         display: block;
-        width: 80%;
+        width: 120%;
 
     }
     .como__se__juega__caption {
