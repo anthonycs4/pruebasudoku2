@@ -282,7 +282,7 @@
         padding: 0px 0;
     }
 }
-@media screen and (max-width: 985px) {
+@media screen and (max-width: 990px) {
     .que__es__image img {
         max-width: 455px;
         width: 100%;
@@ -297,7 +297,7 @@
         text-align: center;
     }
     .que__es__content .que__es__caption .que__es__captionIMG img {
-        margin-left: 110px;
+        margin-left: 50px;
     }
     .que__es__content{
         margin-left: 85px;
@@ -571,7 +571,7 @@
         margin-left: 10px;
     }
     .que__es__content .que__es__caption .que__es__captionIMG img {
-        margin-left: 115px;
+        margin-left: 75px;
     }
 }
 @media screen and (max-width: 600px) {
@@ -608,7 +608,9 @@
     .descarga__el__juego .tiendas {
         margin-top: 30px;
     }
-
+    .que__es__captionIMG img {
+        width: 300px;
+    }
     .que__es__netdreams__sudoku {
         margin: 5px auto;
     }
