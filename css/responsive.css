@@ -245,10 +245,18 @@
         flex-direction: column-reverse;
         gap: 20px;
     }
-
+    .que__es__content{
+        margin-left: 0;
+        padding: 0 0 0 85px;
+    }
+    
+    .que__es__captionIMG img {
+        width: 350px;
+        margin-left: 220px;
+    }
     .que__es__image img {
-        max-width: 385px;
-        width: 80%;
+        max-width: 445px;
+        width: 100%;
     }
     .que__es__imagef img {
         max-width: 385px;
@@ -410,10 +418,20 @@
     margin: 10px auto; 
     width: 100%;
     }
-    .que__es__content, .que__es__content_final {
+     .que__es__content_final {
         margin-left: 55px;
     }
-
+    .que__es__content{
+        margin-left: 0px;
+    }
+    .que__es__image img {
+        max-width: 485px;
+        width: 85%;
+        margin-left: 10px;
+    }
+    .que__es__content .que__es__caption .que__es__captionIMG img {
+        margin-left: 110px;
+    }
 }
 @media screen and (max-width: 769px) {
     .game {
@@ -429,8 +447,14 @@
         width: 85%;
         margin-left: 5px;
     }
-    .que__es__content, .que__es__content_final {
+     .que__es__content_final {
         margin-left: 50px;
+    }
+    .que__es__content .que__es__caption .que__es__captionIMG img {
+        margin-left: 70px;
+    }
+    .que__es__content{
+        margin-left: 0px;
     }
     .que__es__content_final {
         margin-top: 50px;
@@ -583,6 +607,7 @@
     }
     .que__es__content .que__es__caption .que__es__captionIMG img {
         margin-left: 75px;
+        width: 65%;
     }
     .como__se__juega__hidden img {
         display: block;
@@ -595,6 +620,10 @@
         position: relative;
         width: 375px;
         height: 400px;
+    }
+    .que__es__content .que__es__caption .que__es__captionIMG img {
+        margin-left: 50px;
+        width: 65%;
     }
 
     .play__btn {
@@ -680,6 +709,10 @@
     }.content-redes {
         flex-direction: row;
         padding: 0 57px;
+    }
+    .que__es__content .que__es__caption .que__es__captionIMG img {
+        width: 55%;
+        margin-left:60px;
     }
 
     .logo-netdreams {
