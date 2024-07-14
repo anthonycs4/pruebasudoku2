@@ -21,6 +21,7 @@
     .como__se__juega__container {
         max-width: 1125px;
         grid-template-columns: 1fr 465px;
+        padding: 170px 0 0 0px;
     }
     .titulo {
         font-size: 2.8rem;
@@ -70,7 +71,7 @@
     }
     .que__es__caption_final {
         margin-top: 55px;
-        padding: 90px 38px;
+        padding: 90px 0px;
     }
     .que__es__content_final {
         margin-left: 65px;
@@ -123,6 +124,15 @@
         padding: 115px 65px 0px 60px;
         width: 95%;
     }
+    .como__se__juega__container {
+        padding: 0px 0 0 0px;
+    }
+    .que__es__imagef img {
+        width: 440px;
+        display: block;
+        margin: auto;
+    }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -189,6 +199,10 @@
         text-align: center;
         font-size: 1.7rem;
     }
+    .descarga__el__juego_final{
+        width: 120%;
+
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -245,9 +259,23 @@
         flex-direction: column-reverse;
         gap: 20px;
     }
+    .descarga__el__juego_final {
+        width: 100%;
+    }
     .que__es__content{
         margin-left: 0;
         padding: 0 0 0 85px;
+    }
+    .que__es__imagef_hidden{
+        display: block;
+    }
+    .que__es__imagef_hidden img{
+     
+    width: 490px;
+    margin-left: 105px;
+}
+    .que__es__imagef{
+        display: none;
     }
     
     .que__es__captionIMG img {
@@ -337,9 +365,7 @@
         margin-top: -240px;
         width: 700px;
     }
-    section.video{
-        padding-bottom: 140px;
-    }
+    
     .que__es__caption_final {
         margin-top: -25px;
         padding: 135px 0;
@@ -408,7 +434,7 @@
         align-items: center;
     }
     .caption__descripcion p ,.como__se__juega__paragraph,.video__paragraph{
-        background: #ffffff;
+        /* background: #ffffff; */
         border-radius: 10px;
    
         text-align: justify;
@@ -423,6 +449,12 @@
     }
     .que__es__content{
         margin-left: 0px;
+    }
+    .que__es__imagef_hidden img{
+        margin-left: 40px;
+    }
+    section.juega-celular{
+        margin-top: -180px;
     }
     .que__es__image img {
         max-width: 485px;
@@ -468,6 +500,7 @@
     .como__se__juega__caption {
         margin-top: -230px;
         padding: 10px 50px 0 50px;
+        width: 110%;
     }
     .background-group-2 {
         padding: 0 0;
@@ -611,8 +644,7 @@
     }
     .como__se__juega__hidden img {
         display: block;
-        width: 125%;
-        padding: 0px 65px 0px 0px;
+        width: 110%;
     }
 }
 @media screen and (max-width: 600px) {
@@ -620,6 +652,9 @@
         position: relative;
         width: 375px;
         height: 400px;
+    }
+    .que__es__imagef_hidden img {
+        margin-left: -10px;
     }
     .que__es__content .que__es__caption .que__es__captionIMG img {
         margin-left: 50px;
@@ -667,13 +702,15 @@
         background-repeat: no-repeat;
     }
     .como__se__juega__hidden img {
-        padding: 55px 45px 0px 45px;
-        width: 115%;
+        padding: 55px 0px 0px 40px;
+        width: 110%;
     }
 
     .como__se__juega__caption {
-        padding: 10px 115px;    }
-
+        padding: 10px 40px;    }
+        .como__se__juega.english {
+            margin-top: 55px;
+        }
     .como__se__juega__container {
         gap: 150px;
     }
@@ -708,7 +745,7 @@
         gap: 30px;
     }.content-redes {
         flex-direction: row;
-        padding: 0 57px;
+        padding: 0 85px;
     }
     .que__es__content .que__es__caption .que__es__captionIMG img {
         width: 55%;
@@ -757,6 +794,20 @@
         max-width: 300px;
         margin: 0;
     }
+    .como__se__juega.english {
+        margin-left: 10px;
+    }
+    .que__es__caption_final {
+        width: 90%;
+    }
+    .que__es__imagef_hidden img{
+        width: 85%;
+    }
+    .caption__descripcion {
+        margin: 10px auto;
+        width: 120%;
+        margin-left: -50px;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -767,30 +818,54 @@
         margin-left: 35px;
     }
     .que__es__imagef img {
-        margin-left: 35px;
+        margin-left: 25px;
         padding: 0 0 150px 0;
     }
-    .que__es__content, .que__es__content_final{
-        margin-left: 10px;
-    }   
+    .como__se__juega.english {
+        margin-top: 0;
+    }
+    .que__es__content {
+        margin-left: 0;
+        padding: 0 0 0 45px;
+    }
+    .que__es__caption{
+        width: 120%;
+    }
+    .que__es__content_final {
+        margin-left: 15px;
+    }
     .que__es__content .que__es__caption .que__es__captionIMG img {
         margin-left: 80px;
-        width: 50%;
+        width: 65%;
     }
     .caption__descripcion{
-        width: 250px;
+        width: 330px;
         margin-left: 45px;
+    }
+
+    .como__se__juega__container{
+        padding-top: 255px;
+        width: 100%;
+    }
+    section.video {
+        margin: 50px auto;
+    }
+    section.juega-celular {
+        margin-top: 35px;
     }
     .descarga__el__juego__parrafo{
         margin-left: 95px;
-        width: 255px;
+        width: 335px;
     }
     .descarga__el__juego .tiendas {
         margin-left: 65px;
     }
     .como__se__juega__caption{
         margin-top: -540px;
-        width: 285px;
+        width: 420px;
+    }
+    .como__se__juega__hidden img {
+        padding: 90px 0px 0px 40px;
     }
     .como__se__juega__hidden_final img {
         display: flex;
@@ -800,6 +875,7 @@
     .que__es__content_final{
         margin-top: 90px;
         padding-bottom: 60px;
+        width: 100%;
     }
 
 
@@ -900,17 +976,80 @@
     .caption__title img {
         width: 50px;
     }
-    
     .que__es__caption_final {
         margin-top: -150px;
-        padding: 0px 15px;
+        padding: 15px 15px 0px 15px;
+        margin-left: -45px;
     }
-    .que__es__content_final p{
-        margin-left: -30px;
+    .que__es__imagef_hidden img {
+        width: 100%;
+    }
+    .content-redes {
+        flex-direction: row;
+        padding: 0 93px;
+    }
+    .que__es__content_final p {
+        margin-left: -45px;
+        padding-right: 30px;
     }
     .titulo--celeste {
         text-align: -webkit-center;
     }
+}
+@media screen and (max-width: 360px) {
+    .que__es__content {
+        margin-left: 0;
+        padding: 0 0 0 0;
+    }
+    .bodypage p {
+        font-size: 1.6rem;    
+    }
+    .caption__descripcion {
+        width: 295px;
+        margin-left: 50px;
+    }
+    section.video {
+        margin: 0 0;
+    }
+    .que__es__imagef_hidden img {
+        width: 85%;
+        margin-left: 25px;
+    }
+    .descarga__el__juego__parrafo {
+        margin-left: 70px;
+
+    }
+    .descarga__el__juego .tiendas {
+        margin-left: 80px;
+    }
+    .content-redes {
+        flex-direction: row;
+        padding: 0px 40px;
+    }
+    .como__se__juega__caption {
+        margin-top: -540px;
+        width: 90%;
+        padding: 10px 0px;
+    
+    }
+    .que__es__caption_final {
+        margin-top: -150px;
+        padding: 15px 0px 0px 35px;
+        margin-left: -45px;
+        width: 100%;
+    }
+    .que__es__content_final {
+        margin-left: 0;
+    }
+    .descarga__el__juego_final {
+        margin-left: 10px;
+    }
+    .que__es__content_final p {
+        margin-left: -45px;
+        padding-right: 0px;
+        width: 95%;
+    }
+    
 }
 
 @media screen and (max-width: 326px) {

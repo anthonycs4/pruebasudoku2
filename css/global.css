@@ -12,7 +12,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.que__es__imagef_hidden{
+    display: none;
+}
 html {
     font-size: 10px;
     scroll-behavior: smooth;
