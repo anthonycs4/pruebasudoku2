@@ -1037,6 +1037,24 @@
         width: 400px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .que__es__content {
+        padding: 0px 0 0 20px;
+    }
+    .que__es__content_final p {
+        margin-left: -45px;
+        padding-right: 10px;
+        width: 280px;
+    }
+    .content-redes {
+        flex-direction: row;
+        padding: 0px 55px;
+    }
+    .como__se__juega__caption {
+        width: 370px;
+    }
+}
 @media screen and (max-width: 360px) {
     .que__es__content {
         margin-left: 0;
